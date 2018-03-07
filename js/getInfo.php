@@ -2,9 +2,9 @@
 $q=$_REQUEST['number'];
 $i=0;
 $str='';
-while($q!=0)
+for($i=1;$i<=$q;$i++)
 {
-	if($q%15==0)
+	if($i%15==0)
 	{
 		if($str=="")
 		{
@@ -16,7 +16,7 @@ while($q!=0)
 		
 		}
 	}
-	elseif ($q%5==0) {
+	elseif ($i%5==0) {
 	if($str=="")
 		{
 			$str=$str.'BAR';
@@ -27,7 +27,7 @@ while($q!=0)
 		
 		}	
 	}
-	elseif($q%3==0)
+	elseif($i%3==0)
 	{
 	if($str=="")
 		{
@@ -41,9 +41,9 @@ while($q!=0)
 	}
 	else
 	{
-		
+
 	}
-	$q--;
+	
 }
 echo $str;	
 ?>
