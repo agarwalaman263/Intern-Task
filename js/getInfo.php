@@ -8,36 +8,40 @@ for($i=1;$i<=$q;$i++)
 	{
 		if($str=="")
 		{
-			$str=$str.'FOOBAR';
+			$str=$str.$i;
 		}
 		else
 		{
+		$str=$str.','.$i;
+		}
 		$str=$str.','."FOOBAR";
 		
-		}
 	}
 	elseif ($i%5==0) {
-	if($str=="")
+			if($str=="")
 		{
-			$str=$str.'BAR';
+			$str=$str.$i;
 		}
 		else
 		{
-		$str=$str.','."BAR";
+		$str=$str.','.$i;
 		
-		}	
+		}
+		$str=$str.','."BAR";
+	
 	}
 	elseif($i%3==0)
 	{
-	if($str=="")
+			if($str=="")
 		{
-			$str=$str.'FOO';
+			$str=$str.$i;
 		}
 		else
 		{
-		$str=$str.','."FOO";
+		$str=$str.','.$i;
 		
-		}	
+		}
+		$str=$str.','."FOO";
 	}
 	else
 	{
