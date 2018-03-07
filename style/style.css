@@ -6,7 +6,7 @@ body
 	height: 100vh;
 	margin:0;
 	padding: 0;
-	background-color: #CEF7A0;
+	background-color: #BA9790;
 	font-family: raleway;
 	font-weight: bolder;
 }
@@ -63,5 +63,19 @@ input:focus
 {
 	width:50vw;
 	height:100vh;
-	background-color: #BA9790;	
+	background-color: #BA9790;
+	overflow-y: auto;	
+	/*border: 0 0 0 1px black solid;*/
+}
+.row
+{
+	/*width: 100%;*/
+	background-color: #CEF7A0;
+	height:40px;
+	margin:10px;
+	padding:5px;
+}
+.row:hover
+{
+	box-shadow: -1px 1px 1px black;
 }
