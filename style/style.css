@@ -12,6 +12,7 @@ body
 }
 .input-half
 {
+	background-color: #31393C;
 	display: flex;
 	flex-direction: column;
 	width:50vw;
@@ -63,17 +64,21 @@ input:focus
 {
 	width:50vw;
 	height:100vh;
-	background-color: #BA9790;
+	background-color: #31393C;
 	overflow-y: auto;	
 	/*border: 0 0 0 1px black solid;*/
 }
 .row
 {
 	/*width: 100%;*/
-	background-color: #CEF7A0;
+	background-color: #2176FF;
 	height:40px;
 	margin:10px;
 	padding:5px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	color:white;
 }
 .row:hover
 {
