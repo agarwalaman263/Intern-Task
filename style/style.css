@@ -131,6 +131,10 @@ input::placeholder
     /* For mobile phones: */
     body {
         flex-direction: column;
-        height:50vh;
+        /*height:50vh;*/
     }
+    .input-half
+{
+	height: 50vh;
+}
 }
