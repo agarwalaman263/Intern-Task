@@ -29,7 +29,7 @@ function callApi() {
      	                    JSON = JSON.split(",");
      	                    for (i = 0; i < JSON.length; i++) 
      	                    {
-     	                        str = str + '<div class="row">' + JSON[i] + '</div>';
+     	                        str = str + '<div class="row"><div>	' + JSON[i] + '</div></div>';
      	                    }
      	                    $(".output-half")[0].innerHTML = str;
      	
